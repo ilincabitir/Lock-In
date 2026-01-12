@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "Lock In",
+    "slug": "lock-in-mobile-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": false, 
+    "splash": {
+      "image": "./assets/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+   "android": {
+  "package": "com.lockin.lock_in_api", 
+  "config": {
+    "googleMaps": {
+      "apiKey": "AIzaSyDbiugF8_dYggjk03ADqPehoqwIDpEMFl4"
+    }
+  },
+  "usesCleartextTraffic": true,
+  "permissions": [
+    "ACCESS_COARSE_LOCATION",
+    "ACCESS_FINE_LOCATION",
+    "FOREGROUND_SERVICE"
+  ]
+}
+  }
+}
